@@ -18,7 +18,6 @@ html.pushbar_locked{
 	will-change: transform;
 	overflow-y: auto;
 	transition:transform 0.5s ease;
-	will-change: transform;
 	background:#fff;
 }
 .pushbar_overlay{
@@ -30,16 +29,15 @@ html.pushbar_locked{
 	min-height: 100vh;
 	top: 0;
 	left: 0;
-    will-change: opacity;
-    transition:opacity 0.5s ease;
-    opacity:0;
-    will-change: opacity;
+	will-change: opacity;
+	transition:opacity 0.5s ease;
+	opacity:0;
 	background: #3c3442;
 }
 html.pushbar_locked .pushbar_overlay{
 	opacity:0.8;
 	z-index: 999;
-    transition:opacity 0.5s ease;
+    	transition:opacity 0.5s ease;
 }
 
 
